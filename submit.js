@@ -14,15 +14,15 @@ const get_random = (max) => {
     return rtv;
 }
 
-function convertDecToBin(dec) {
+const convertDecToBin = (dec) => {
     return (dec >>> 0).toString(2);
 }
 
-function convertBinToDec(bin) {
+const convertBinToDec = (bin) => {
     return parseInt(bin, 2);
 }
 
-function getBinLength(bin) {
+const getBinLength = (bin) => {
     return bin.length;
 }
 
